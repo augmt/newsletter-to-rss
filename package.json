@@ -7,24 +7,16 @@
     "name": "Hector Garcia",
     "email": "soseinhg3@gmail.com"
   },
-  "scripts": {
-    "start:dev": "nodemon -r babel-register src/server.js",
-    "test": "tape -r babel-register test/test.js"
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augmt/newsletter-to-rss.git"
   },
   "dependencies": {
-    "koa": "2.0.0-alpha.7",
-    "koa-bodyparser": "3.2.0",
-    "koa-cors": "git+https://git@github.com/kunyan/koa-cors.git#bd48a143b3417091268ffcff3a3865b434404d6b",
-    "koa-router": "7.0.1",
-    "mailparser": "0.6.1",
-    "rss": "1.2.1"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
-    "babel-register": "^6.18.0",
-    "nodemon": "^1.11.0",
-    "supertest": "^2.0.1",
-    "tape": "^4.6.3"
-  },
-  "private": true
+    "kcors": "2.2.1",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-router": "7.2.1",
+    "rss": "1.2.2"
+  }
 }
